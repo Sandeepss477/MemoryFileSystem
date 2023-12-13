@@ -1,4 +1,5 @@
-InMemoryFileSystem Class:
+**InMemoryFileSystem Class:**
+
 This class represents the in-memory file system. It has the following attributes:
 
 current_directory: Keeps track of the current working directory.
@@ -25,10 +26,12 @@ cat(file_path): Displays the content of the specified file.
 touch(file_name): Creates a new empty file in the current directory.
 echo(text): Writes text to a file named "output.txt" in the current directory.
 
-Main Loop:
+**Main Loop:**
+
 The script enters an infinite loop where it continuously prompts the user to enter commands. It calls the execute_command method to process and execute the commands. The loop exits when the user enters "exit."
 
-Additional Notes:
+**Additional Notes:**
+
 Some commands have placeholder comments for bonus functionality (grep, mv, cp, rm). You can implement these as described in the bonus part of the original assignment.
 The code is a basic starting point and does not handle many edge cases or errors. In a real implementation, you'd want to add more robust error handling and edge case checks.
 You can run this code by executing the script, and then you can interact with the in-memory file system by entering the specified commands during runtime.
